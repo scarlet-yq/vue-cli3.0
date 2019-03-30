@@ -7,22 +7,22 @@ export default new Router({
     {
       path: '/home',
       name: 'home',
-      component: () => import(/* webpackChunkName: "home" */ './views/Home.vue')
+      component: () => import(/* webpackChunkName: "home" */ '@/views/Home.vue')
     },
     {
       path: '/about',
       name: 'about',
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+      component: () => import(/* webpackChunkName: "about" */ '@/views/About.vue')
     },
     {
       path: '/account',
       name: 'account',
-      component: () => import(/* webpackChunkName: "account" */ './views/Account.vue')
+      component: () => import(/* webpackChunkName: "account" */ '@/views/Account.vue')
     },
     {
       path: '*',
       name: 'home',
-      component: () => import(/* webpackChunkName: "home" */ './views/Home.vue')
+      component: () => import(/* webpackChunkName: "home" */ '@/views/Home.vue')
     }
   ]
 })
