@@ -1,0 +1,8 @@
+{
+  "code": 0,
+  "data": {
+    "realName": "刘腾飞",
+    "profilePhoto": "https://bj-crm.s3.amazonaws.com/okr/user/default_faces/Fruit-01.png?AWSAccessKeyId=AKIAJ7YMSIPBGTNRG6NA&Expires=1553752834&Signature=220Ag1nEM8RMRUBil6dWCcRXWRQ%3D"
+  },
+  "msg": "获取用户信息"
+}

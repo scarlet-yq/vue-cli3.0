@@ -1,13 +1,34 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/home">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/account">Account</router-link>
-    </div>
-    <router-view/>
+      <router-view></router-view>
   </div>
 </template>
 
+<script>
+  import * as types from './store/types';
+
+  export default {
+    name: 'app',
+    mounted() {
+      this.$store.dispatch(types.DO_GET_USER_INFO);
+    }
+  }
+</script>
+
 <style lang="less">
+  .main {
+    .ivu-layout.ivu-layout-has-sider {
+      height: 100%;
+    }
+  }
+</style>
+
+<style lang="less">
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  html, body,#app  {
+    height: 100%;
+  }
 </style>

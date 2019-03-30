@@ -1,0 +1,55 @@
+.main {
+  height: 100%;
+  position: relative;
+}
+.main .main-sider {
+  height: 100%;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.main .main-sider .logo {
+  padding: 8px;
+}
+.main .main-sider .logo img {
+  display: block;
+}
+.main .layout-header-bar {
+  width: 100%;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.main .layout-header-bar .navicon-con {
+  float: left;
+}
+.main .layout-header-bar .main-breadcrumb {
+  float: left;
+}
+.main .layout-header-bar .main-breadcrumb .ivu-breadcrumb > span:last-child,
+.main .layout-header-bar .main-breadcrumb .ivu-breadcrumb a {
+  color: #262424;
+}
+.main .layout-header-bar .user-dropdown-innercon {
+  padding-right: 20px;
+}
+.main .layout-header-bar .user-dropdown-innercon span {
+  color: #efefef;
+  font-size: 13px;
+}
+.main .layout-header-bar .user-dropdown-innercon strong {
+  color: #fff;
+  font-weight: normal;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.main .layout-header-bar .user-dropdown-innercon button {
+  margin-right: 10px;
+}
+.main .single-page {
+  position: absolute;
+  top: 64px;
+}
