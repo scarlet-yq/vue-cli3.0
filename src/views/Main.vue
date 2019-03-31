@@ -32,49 +32,16 @@
                 <router-view></router-view>
             </div>
         </div>
-        <!--<Layout>
-            <Sider class="main-sider" ref="side1" hide-trigger collapsible :collapsed-width="60" v-model="shrink">
-                <shrinkableMenu
-                    :shrink="shrink"
-                    :open-names="openedSubmenuArr"
-                    :menu-list="menuList">
-                    <div slot="top" class="logo-icon">
-                        <div class="logo">
-                            <img width="100%" v-show="!shrink"  src="../assets/images/logo.png" key="max-logo" />
-                            <img width="100%" v-show="shrink" src="../assets/images/logo-min.png" key="min-logo" />
-                        </div>
-                    </div>
-                </shrinkableMenu>
-            </Sider>
-            <Layout>
-                <Header :style="{'padding-left': shrink ? '60px' : '200px'}" class="layout-header-bar">
-                    <div class="navicon-con">
-                        <Icon color="#fff" @click.native="toggleClick"  :style="{transform: 'rotateZ(' + (shrink ? '-90' : '0') + 'deg)',margin: '0 20px'}"  type="md-menu" size="24"></Icon>
-                    </div>
-                    <div class="main-breadcrumb">
-                        <breadcrumb-nav :currentPath="currentPath"></breadcrumb-nav>
-                    </div>
-                    <Row type="flex" justify="end" align="middle" class="user-dropdown-innercon">
-                        <span>当前用户：</span>
-                        <strong>{{userInfo.realName}}</strong>
-                        <Button>EN</Button>
-                        <Button type="primary">退出登录</Button>
-                    </Row>
-                </Header>
-                <Content :style="{
-                    left: shrink ? '60px' : '200px',
-                }" class="single-page">
-                    <router-view></router-view>
-                </Content>
-            </Layout>
-        </Layout>-->
+        <div class="feedback-btn">
+           <Icon type="ios-arrow-dropup" size="30" color="#333"/>
+        </div>
     </div>
 </template>
 
 <script>
     import shrinkableMenu from './main-components/shrinkable-menu/shrinkable-menu.vue';
     import breadcrumbNav from './main-components/breadcrumb-nav.vue';
-    import {Layout,Content, Sider, Header, Button, Icon, Row, Avatar, Dropdown, DropdownMenu , DropdownItem} from 'iview';
+    import {Layout,Content, Sider, Header, Button, Icon, Row, Avatar, Dropdown, DropdownMenu , DropdownItem,BackTop} from 'iview';
     import { mapGetters } from 'vuex';
     import Util from '../libs/util';
     import Cookies from 'js-cookie';
@@ -94,7 +61,8 @@
             Dropdown,
             DropdownMenu,
             DropdownItem,
-            Button
+            Button,
+            BackTop
         },
         data() {
             return {
@@ -200,6 +168,10 @@
                     Cookies.set('lang', 'zh', { expires: 365 });
                 }
                 window.location.reload();
+            },
+            // 返回顶部
+            goTop () {
+              window.scrollTo(0, 0)
             }
         }
     }

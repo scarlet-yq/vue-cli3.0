@@ -4,44 +4,49 @@
 }
 .main .main-sider {
   height: 100%;
-  position: absolute;
+  background-color: #515a6e;
+  position: fixed;
   z-index: 10;
   left: 0;
   top: 0;
   bottom: 0;
+  transition: width 0.3s;
 }
 .main .main-sider .logo {
-  padding: 8px;
+  padding: 10px;
+  text-align: center;
 }
 .main .main-sider .logo img {
   display: block;
+  height: 44px;
+  width: auto;
+  margin: 0 auto;
 }
 .main .layout-header-bar {
-  width: 100%;
-  padding: 0;
+  right: 0;
   position: fixed;
   top: 0;
-  left: 0;
+  transition: left 0.3s;
 }
 .main .layout-header-bar .navicon-con {
-  float: left;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+  color: #fff;
 }
 .main .layout-header-bar .main-breadcrumb {
-  float: left;
-}
-.main .layout-header-bar .main-breadcrumb .ivu-breadcrumb > span:last-child,
-.main .layout-header-bar .main-breadcrumb .ivu-breadcrumb a {
-  color: #262424;
+  position: absolute;
+  left: 64px;
+  top: 0;
 }
 .main .layout-header-bar .user-dropdown-innercon {
+  right: 0;
+  top: 0;
   padding-right: 20px;
 }
-.main .layout-header-bar .user-dropdown-innercon span {
-  color: #efefef;
-  font-size: 13px;
-}
 .main .layout-header-bar .user-dropdown-innercon strong {
-  color: #fff;
+  color: #efefef;
   font-weight: normal;
   font-size: 14px;
   margin-right: 10px;
@@ -49,7 +54,29 @@
 .main .layout-header-bar .user-dropdown-innercon button {
   margin-right: 10px;
 }
+.main .layout-text {
+  display: inline-block;
+  white-space: nowrap;
+  position: absolute;
+  margin-left: 6px;
+}
+.main .main-hide-text .layout-text {
+  display: none;
+}
 .main .single-page {
   position: absolute;
   top: 64px;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  transition: left 0.3s;
+}
+.main .single-page .single-page-view {
+  padding: 20px;
+}
+.main .feedback-btn {
+  position: fixed;
+  z-index: 30;
+  right: 30px;
+  bottom: 30px;
 }

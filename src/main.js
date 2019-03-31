@@ -27,6 +27,7 @@ const i18n = new VueI18n({
 });
 
 Vue.config.productionTip = false
+console.log("aaaa","123")
 
 new Vue({
   router,
