@@ -1,0 +1,175 @@
+{
+  "code": 0,
+  "data": {
+    "content": [{
+      "creativeGroupId": "139954680315298268",
+      "offerId": "279339856",
+      "promotedAppId": "10019",
+      "package": "id1455940649",
+      "exchange": "Tencent",
+      "adType": "Native",
+      "submitted": "2019-03-29 22:00:18",
+      "status": "Active",
+      "reviewStatus": "审核通过",
+      "rejectReason": "2019-03-30 10:20:05"
+    }, {
+      "creativeGroupId": "7274846444492480848",
+      "offerId": "279339856",
+      "promotedAppId": "10019",
+      "package": "id1455940649",
+      "exchange": "Tencent",
+      "adType": "Native",
+      "submitted": "2019-03-29 22:00:18",
+      "status": "Active",
+      "reviewStatus": "被拒绝",
+      "rejectReason": "广告描述包含未经核实的数据【第二名】，需删除或提供第三方数据证明。证明请上传至投放管理平台-工具箱-广告资质 2019-04-01 13:45:03"
+    }, {
+      "creativeGroupId": "3022774797289472780",
+      "offerId": "279339856",
+      "promotedAppId": "10019",
+      "package": "id1455940649",
+      "exchange": "Tencent",
+      "adType": "Native",
+      "submitted": "2019-03-29 22:00:16",
+      "status": "Active",
+      "reviewStatus": "被拒绝",
+      "rejectReason": "广告描述包含未经核实的数据【第二名】，需删除或提供第三方数据证明。证明请上传至投放管理平台-工具箱-广告资质 2019-04-01 13:45:03"
+    }, {
+      "creativeGroupId": "-4608350385211455413",
+      "offerId": "279339855",
+      "promotedAppId": "10019",
+      "package": "id1455940649",
+      "exchange": "Tencent",
+      "adType": "Native",
+      "submitted": "2019-03-29 22:00:15",
+      "status": "Active",
+      "reviewStatus": "审核通过",
+      "rejectReason": "2019-03-30 10:20:05"
+    }, {
+      "creativeGroupId": "3064746122450011630",
+      "offerId": "279339855",
+      "promotedAppId": "10019",
+      "package": "id1455940649",
+      "exchange": "Tencent",
+      "adType": "Native",
+      "submitted": "2019-03-29 22:00:15",
+      "status": "Active",
+      "reviewStatus": "被拒绝",
+      "rejectReason": "广告描述包含未经核实的数据【第二名】，需删除或提供第三方数据证明。证明请上传至投放管理平台-工具箱-广告资质 2019-04-01 13:45:03"
+    }, {
+      "creativeGroupId": "139954680315298268",
+      "offerId": "279339856",
+      "promotedAppId": "10019",
+      "package": "id1455940649",
+      "exchange": "Tencent",
+      "adType": "Native",
+      "submitted": "2019-03-29 22:00:18",
+      "status": "Active",
+      "reviewStatus": "审核通过",
+      "rejectReason": "2019-03-30 10:20:05"
+    }, {
+      "creativeGroupId": "7274846444492480848",
+      "offerId": "279339856",
+      "promotedAppId": "10019",
+      "package": "id1455940649",
+      "exchange": "Tencent",
+      "adType": "Native",
+      "submitted": "2019-03-29 22:00:18",
+      "status": "Active",
+      "reviewStatus": "被拒绝",
+      "rejectReason": "广告描述包含未经核实的数据【第二名】，需删除或提供第三方数据证明。证明请上传至投放管理平台-工具箱-广告资质 2019-04-01 13:45:03"
+    }, {
+      "creativeGroupId": "3022774797289472780",
+      "offerId": "279339856",
+      "promotedAppId": "10019",
+      "package": "id1455940649",
+      "exchange": "Tencent",
+      "adType": "Native",
+      "submitted": "2019-03-29 22:00:16",
+      "status": "Active",
+      "reviewStatus": "被拒绝",
+      "rejectReason": "广告描述包含未经核实的数据【第二名】，需删除或提供第三方数据证明。证明请上传至投放管理平台-工具箱-广告资质 2019-04-01 13:45:03"
+    }, {
+      "creativeGroupId": "-4608350385211455413",
+      "offerId": "279339855",
+      "promotedAppId": "10019",
+      "package": "id1455940649",
+      "exchange": "Tencent",
+      "adType": "Native",
+      "submitted": "2019-03-29 22:00:15",
+      "status": "Active",
+      "reviewStatus": "审核通过",
+      "rejectReason": "2019-03-30 10:20:05"
+    }, {
+      "creativeGroupId": "3064746122450011630",
+      "offerId": "279339855",
+      "promotedAppId": "10019",
+      "package": "id1455940649",
+      "exchange": "Tencent",
+      "adType": "Native",
+      "submitted": "2019-03-29 22:00:15",
+      "status": "Active",
+      "reviewStatus": "被拒绝",
+      "rejectReason": "广告描述包含未经核实的数据【第二名】，需删除或提供第三方数据证明。证明请上传至投放管理平台-工具箱-广告资质 2019-04-01 13:45:03"
+    }, {
+      "creativeGroupId": "139954680315298268",
+      "offerId": "279339856",
+      "promotedAppId": "10019",
+      "package": "id1455940649",
+      "exchange": "Tencent",
+      "adType": "Native",
+      "submitted": "2019-03-29 22:00:18",
+      "status": "Active",
+      "reviewStatus": "审核通过",
+      "rejectReason": "2019-03-30 10:20:05"
+    }, {
+      "creativeGroupId": "7274846444492480848",
+      "offerId": "279339856",
+      "promotedAppId": "10019",
+      "package": "id1455940649",
+      "exchange": "Tencent",
+      "adType": "Native",
+      "submitted": "2019-03-29 22:00:18",
+      "status": "Active",
+      "reviewStatus": "被拒绝",
+      "rejectReason": "广告描述包含未经核实的数据【第二名】，需删除或提供第三方数据证明。证明请上传至投放管理平台-工具箱-广告资质 2019-04-01 13:45:03"
+    }, {
+      "creativeGroupId": "3022774797289472780",
+      "offerId": "279339856",
+      "promotedAppId": "10019",
+      "package": "id1455940649",
+      "exchange": "Tencent",
+      "adType": "Native",
+      "submitted": "2019-03-29 22:00:16",
+      "status": "Active",
+      "reviewStatus": "被拒绝",
+      "rejectReason": "广告描述包含未经核实的数据【第二名】，需删除或提供第三方数据证明。证明请上传至投放管理平台-工具箱-广告资质 2019-04-01 13:45:03"
+    }, {
+      "creativeGroupId": "-4608350385211455413",
+      "offerId": "279339855",
+      "promotedAppId": "10019",
+      "package": "id1455940649",
+      "exchange": "Tencent",
+      "adType": "Native",
+      "submitted": "2019-03-29 22:00:15",
+      "status": "Active",
+      "reviewStatus": "审核通过",
+      "rejectReason": "2019-03-30 10:20:05"
+    }, {
+      "creativeGroupId": "3064746122450011630",
+      "offerId": "279339855",
+      "promotedAppId": "10019",
+      "package": "id1455940649",
+      "exchange": "Tencent",
+      "adType": "Native",
+      "submitted": "2019-03-29 22:00:15",
+      "status": "Active",
+      "reviewStatus": "被拒绝",
+      "rejectReason": "广告描述包含未经核实的数据【第二名】，需删除或提供第三方数据证明。证明请上传至投放管理平台-工具箱-广告资质 2019-04-01 13:45:03"
+    }],
+    "totalElements": 15,
+    "number": 0,
+    "size": 10
+  },
+  "msg": "素材审核状态列表"
+}

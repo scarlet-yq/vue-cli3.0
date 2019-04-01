@@ -1,0 +1,175 @@
+{
+  "code": 0,
+  "data": {
+    "content": [{
+      "icon": "http://cdn-adn.rayjump.com/cdn-adn/v2/dmp/19/03/26/12/39/5c99acf2b5800.jpg",
+      "promotedAppId": "10019",
+      "appName": "方块拼拼拼!",
+      "package": "id1455940649",
+      "companyId": "105",
+      "companyName": "北京兵驰网络科技有限公司",
+      "category": "游戏 - 益智",
+      "submitted": "2019-03-27 11:09:59",
+      "reviewStatus": "审核通过",
+      "message": "2019-03-27 11:25:02"
+    }, {
+      "icon": "http://cdn-adn.rayjump.com/cdn-adn/v2/dmp/19/03/20/14/37/5c91dfc2bd07b.jpg",
+      "promotedAppId": "10018",
+      "appName": "一群小辣鸡!",
+      "package": "id1455622407",
+      "companyId": "105",
+      "companyName": "北京兵驰网络科技有限公司",
+      "category": "游戏 - 角色扮演",
+      "submitted": "2019-03-26 14:05:56",
+      "reviewStatus": "审核通过",
+      "message": "2019-03-26 14:20:10"
+    }, {
+      "icon": "http://cdn-adn.rayjump.com/cdn-adn/v2/dmp/19/02/27/11/37/5c76061086045.jpg",
+      "promotedAppId": "10017",
+      "appName": "熊猫森林",
+      "package": "id1452971753",
+      "companyId": "105",
+      "companyName": "北京兵驰网络科技有限公司",
+      "category": "游戏 - 休闲",
+      "submitted": "2019-02-27 20:05:33",
+      "reviewStatus": "审核通过",
+      "message": "2019-02-27 20:55:33"
+    }, {
+      "icon": "http://cdn-adn.rayjump.com/cdn-adn/v2/dmp/19/02/02/10/19/5c54fe2f4a80b.jpg",
+      "promotedAppId": "10016",
+      "appName": "绒球历险记",
+      "package": "id1447584005",
+      "companyId": "105",
+      "companyName": "北京兵驰网络科技有限公司",
+      "category": "游戏 - 休闲",
+      "submitted": "2019-02-15 19:05:05",
+      "reviewStatus": "审核通过",
+      "message": "2019-02-15 19:50:03"
+    }, {
+      "icon": "http://cdn-adn.rayjump.com/cdn-adn/v2/dmp/19/01/24/12/02/5c4938ce5b9c3.jpg",
+      "promotedAppId": "10015",
+      "appName": "扭蛋城市",
+      "package": "id1447586607",
+      "companyId": "105",
+      "companyName": "北京兵驰网络科技有限公司",
+      "category": "游戏 - 益智",
+      "submitted": "2019-02-15 19:02:38",
+      "reviewStatus": "审核通过",
+      "message": "2019-02-15 19:52:10"
+    }, {
+      "icon": "http://cdn-adn.rayjump.com/cdn-adn/v2/dmp/19/03/26/12/39/5c99acf2b5800.jpg",
+      "promotedAppId": "10019",
+      "appName": "方块拼拼拼!",
+      "package": "id1455940649",
+      "companyId": "105",
+      "companyName": "北京兵驰网络科技有限公司",
+      "category": "游戏 - 益智",
+      "submitted": "2019-03-27 11:09:59",
+      "reviewStatus": "审核通过",
+      "message": "2019-03-27 11:25:02"
+    }, {
+      "icon": "http://cdn-adn.rayjump.com/cdn-adn/v2/dmp/19/03/20/14/37/5c91dfc2bd07b.jpg",
+      "promotedAppId": "10018",
+      "appName": "一群小辣鸡!",
+      "package": "id1455622407",
+      "companyId": "105",
+      "companyName": "北京兵驰网络科技有限公司",
+      "category": "游戏 - 角色扮演",
+      "submitted": "2019-03-26 14:05:56",
+      "reviewStatus": "审核通过",
+      "message": "2019-03-26 14:20:10"
+    }, {
+      "icon": "http://cdn-adn.rayjump.com/cdn-adn/v2/dmp/19/02/27/11/37/5c76061086045.jpg",
+      "promotedAppId": "10017",
+      "appName": "熊猫森林",
+      "package": "id1452971753",
+      "companyId": "105",
+      "companyName": "北京兵驰网络科技有限公司",
+      "category": "游戏 - 休闲",
+      "submitted": "2019-02-27 20:05:33",
+      "reviewStatus": "审核通过",
+      "message": "2019-02-27 20:55:33"
+    }, {
+      "icon": "http://cdn-adn.rayjump.com/cdn-adn/v2/dmp/19/02/02/10/19/5c54fe2f4a80b.jpg",
+      "promotedAppId": "10016",
+      "appName": "绒球历险记",
+      "package": "id1447584005",
+      "companyId": "105",
+      "companyName": "北京兵驰网络科技有限公司",
+      "category": "游戏 - 休闲",
+      "submitted": "2019-02-15 19:05:05",
+      "reviewStatus": "审核通过",
+      "message": "2019-02-15 19:50:03"
+    }, {
+      "icon": "http://cdn-adn.rayjump.com/cdn-adn/v2/dmp/19/01/24/12/02/5c4938ce5b9c3.jpg",
+      "promotedAppId": "10015",
+      "appName": "扭蛋城市",
+      "package": "id1447586607",
+      "companyId": "105",
+      "companyName": "北京兵驰网络科技有限公司",
+      "category": "游戏 - 益智",
+      "submitted": "2019-02-15 19:02:38",
+      "reviewStatus": "审核通过",
+      "message": "2019-02-15 19:50:03"
+    }, {
+      "icon": "http://cdn-adn.rayjump.com/cdn-adn/v2/dmp/19/03/26/12/39/5c99acf2b5800.jpg",
+      "promotedAppId": "10019",
+      "appName": "方块拼拼拼!",
+      "package": "id1455940649",
+      "companyId": "105",
+      "companyName": "北京兵驰网络科技有限公司",
+      "category": "游戏 - 益智",
+      "submitted": "2019-03-27 11:09:59",
+      "reviewStatus": "审核通过",
+      "message": "2019-03-27 11:25:02"
+    }, {
+      "icon": "http://cdn-adn.rayjump.com/cdn-adn/v2/dmp/19/03/20/14/37/5c91dfc2bd07b.jpg",
+      "promotedAppId": "10018",
+      "appName": "一群小辣鸡!",
+      "package": "id1455622407",
+      "companyId": "105",
+      "companyName": "北京兵驰网络科技有限公司",
+      "category": "游戏 - 角色扮演",
+      "submitted": "2019-03-26 14:05:56",
+      "reviewStatus": "审核通过",
+      "message": "2019-03-26 14:20:10"
+    }, {
+      "icon": "http://cdn-adn.rayjump.com/cdn-adn/v2/dmp/19/02/27/11/37/5c76061086045.jpg",
+      "promotedAppId": "10017",
+      "appName": "熊猫森林",
+      "package": "id1452971753",
+      "companyId": "105",
+      "companyName": "北京兵驰网络科技有限公司",
+      "category": "游戏 - 休闲",
+      "submitted": "2019-02-27 20:05:33",
+      "reviewStatus": "审核通过",
+      "message": "2019-02-27 20:55:33"
+    }, {
+      "icon": "http://cdn-adn.rayjump.com/cdn-adn/v2/dmp/19/02/02/10/19/5c54fe2f4a80b.jpg",
+      "promotedAppId": "10016",
+      "appName": "绒球历险记",
+      "package": "id1447584005",
+      "companyId": "105",
+      "companyName": "北京兵驰网络科技有限公司",
+      "category": "游戏 - 休闲",
+      "submitted": "2019-02-15 19:05:05",
+      "reviewStatus": "审核通过",
+      "message": "2019-02-15 19:50:03"
+    }, {
+      "icon": "http://cdn-adn.rayjump.com/cdn-adn/v2/dmp/19/01/24/12/02/5c4938ce5b9c3.jpg",
+      "promotedAppId": "10015",
+      "appName": "扭蛋城市",
+      "package": "id1447586607",
+      "companyId": "105",
+      "companyName": "北京兵驰网络科技有限公司",
+      "category": "游戏 - 益智",
+      "submitted": "2019-02-15 19:02:38",
+      "reviewStatus": "审核通过",
+      "message": "2019-02-15 19:52:10"
+    }],
+    "totalElements": 15,
+    "number": 0,
+    "size": 10
+  },
+  "msg": "资质审核状态列表"
+}

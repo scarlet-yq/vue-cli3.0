@@ -1,21 +1,23 @@
-import Vue from 'vue';
-import App from './App.vue';
-import 'iview/dist/styles/iview.css';
-import { router } from './router';
-import { store } from './store';
-import VueI18n from 'vue-i18n';
-import zh from 'iview/dist/locale/zh-CN';
-import en from 'iview/dist/locale/en-US';
-import enUS from './locales/en';
-import zhCN from './locales/zh';
-import Cookies from 'js-cookie';
+import Vue from 'vue'
+import iView from 'iview'
+import App from './App.vue'
+import 'iview/dist/styles/iview.css'
+import { router } from './router'
+import { store } from './store'
+import VueI18n from 'vue-i18n'
+import zh from 'iview/dist/locale/zh-CN'
+import en from 'iview/dist/locale/en-US'
+import enUS from './locales/en'
+import zhCN from './locales/zh'
+import Cookies from 'js-cookie'
 
-Vue.use(VueI18n);
-Vue.locale = () => {};
+Vue.use(VueI18n)
+Vue.use(iView)
+Vue.locale = () => {}
 
-const lang = Cookies.get('lang') || 'zh';
+const lang = Cookies.get('lang') || 'zh'
 
-const messages =  {
+const messages = {
   zh: Object.assign(zh, zhCN),
   en: Object.assign(en, enUS)
 }
@@ -24,10 +26,9 @@ const messages =  {
 const i18n = new VueI18n({
   locale: lang,
   messages
-});
+})
 
 Vue.config.productionTip = false
-console.log("aaaa","123")
 
 new Vue({
   router,

@@ -32,9 +32,9 @@
                 <router-view></router-view>
             </div>
         </div>
-        <div class="feedback-btn">
+        <!--<div class="feedback-btn">
            <Icon type="ios-arrow-dropup" size="30" color="#333"/>
-        </div>
+        </div>-->
     </div>
 </template>
 
