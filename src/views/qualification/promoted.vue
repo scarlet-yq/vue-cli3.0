@@ -1,9 +1,9 @@
 <template>
     <div class="promoted">
-        <Card :bordered="false" :shadow="false" :dis-hover="false">
+        <Card :bordered="false" :shadow="false" :dis-hover="true">
             <div class="search-btn">
               <Form>
-                  <Row :gutter="40">
+                  <Row :gutter="30">
                     <Col :xs="searchLayout.xs" :sm="searchLayout.sm" :md="searchLayout.md" :lg="searchLayout.lg">
                       <FormItem>
                         <Input v-model="searchForm.appName" :placeholder="$t('_appName')"/>
@@ -46,10 +46,12 @@
                         </FormItem>
                     </Col>
                 </Row>
-                <Row :gutter="40" >
+                <Row :gutter="30" >
                   <Col span="24" :style="{ textAlign: 'right' }">
-                    <Button class="m-r-20" type="primary" @click="promotedAppsPageChange">{{ this.$t("_search") }}</Button>
-                    <Button type="success" @click="exportToExcel">{{ this.$t("_exportToExcel") }}</Button>
+                      <FormItem>
+                        <Button class="m-r-20" type="primary" @click="promotedAppsPageChange">{{ this.$t("_search") }}</Button>
+                        <Button type="success" @click="exportToExcel">{{ this.$t("_exportToExcel") }}</Button>
+                      </FormItem>
                   </Col>
                 </Row>
               </Form>
@@ -61,31 +63,25 @@
               <Page :total="promotedAppsPage.totalElements" :current="promotedAppsPage.number + 1" :page-size="promotedAppsPage.size" @on-change="promotedAppsPageChange"></Page>
             </div>
         </Card>
-
+        <!--icon Model -->
+        <transition name="fade">
+          <div class="icon-mask"  v-show="iconModelShow">
+            <div class="img-wrap">
+              <img :src="iconSrc">
+              <span @click="iconModelShow = false">
+                <Icon type="md-close-circle" color="#fff" size="26"/>
+              </span>
+            </div>
+          </div>
+        </transition>
     </div>
 </template>
 
 <script>
     import { qualificationResource } from '../../api';
-    import { Card, Row, Col, Form, FormItem,Input, Select, Option, Button, Table, Page,Avatar } from 'iview';
 
      export default {
        name: "promoted",
-       components: {
-         Avatar,
-         Card,
-         Row,
-         Col,
-         Form,
-         FormItem,
-         Input,
-         Select,
-         Table,
-         Page,
-         Button,
-         Option,
-
-       },
        data() {
           return {
             searchLayout: {
@@ -116,7 +112,10 @@
                         src: params.row.icon,
                         shape: 'square'
                       },
-                      on: {
+                      style: {
+                        cursor:'pointer'
+                      },
+                      nativeOn: {
                         click: () => this.showIconModel(params.row.icon)
                       }
                     })
@@ -211,7 +210,9 @@
                 value: "5",
                 label: "送审失败"
               },
-            ]
+            ],
+            iconSrc: "",
+            iconModelShow: false
           }
        },
        created() {
@@ -240,6 +241,10 @@
          },
          exportToExcel() {
             console.log("导出到excel")
+         },
+         showIconModel(iconSrc) {
+            this.iconModelShow = true;
+            this.iconSrc = iconSrc;
          }
        }
      }
@@ -247,4 +252,8 @@
 
 <style lang="less">
   @import "../../assets/styles/common.less";
+</style>
+
+<style lang="less">
+  @import "./promoted.less";
 </style>

@@ -27,8 +27,6 @@
 
 
 <script>
-    import { Dropdown, Button, Icon, DropdownMenu, DropdownItem } from 'iview';
-
     export default {
         name: 'sidebarMenuShrink',
         props: {
@@ -44,23 +42,11 @@
                 default: 'dark'
             }
         },
-        components: {
-            Dropdown,
-            Button,
-            Icon,
-            DropdownMenu,
-            DropdownItem
-        },
         methods: {
             changeMenu (active) {
                 this.$emit('on-change', active);
             },
             itemTitle (item) {
-                /*if (typeof item.title === 'object') {
-                    return this.$t(item.title.i18n);
-                } else {
-                    return item.title;
-                }*/
                 return this.$t("_" + item.name);
             }
         }

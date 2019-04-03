@@ -20,6 +20,7 @@ const zh_CN = {
   _companyId: '企业id',
   _companyName: '企业名称',
   _creativeId: '素材id',
+  _creativeGroupId: '素材组合id',
   _exchangeCreativeId: 'adx素材id',
 
   // 资质审核状态

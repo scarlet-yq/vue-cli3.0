@@ -24,7 +24,7 @@
                 <strong>{{ $t("_user") }}:</strong>
                 <strong>{{userInfo.realName}}</strong>
                 <Button @click="changeLocale">{{ language }}</Button>
-                <Button type="primary">{{ $t("_logout") }}</Button>
+                <Button type="primary" @click="toLogout">{{ $t("_logout") }}</Button>
             </Row>
         </Header>
         <div class="single-page" :style="{left: shrink ? '60px' : '270px'}">
@@ -41,7 +41,6 @@
 <script>
     import shrinkableMenu from './main-components/shrinkable-menu/shrinkable-menu.vue';
     import breadcrumbNav from './main-components/breadcrumb-nav.vue';
-    import {Layout,Content, Sider, Header, Button, Icon, Row, Avatar, Dropdown, DropdownMenu , DropdownItem,BackTop} from 'iview';
     import { mapGetters } from 'vuex';
     import Util from '../libs/util';
     import Cookies from 'js-cookie';
@@ -50,19 +49,7 @@
         name: "Main",
         components: {
             shrinkableMenu,
-            breadcrumbNav,
-            Layout,
-            Content,
-            Sider,
-            Header,
-            Icon,
-            Row,
-            Avatar,
-            Dropdown,
-            DropdownMenu,
-            DropdownItem,
-            Button,
-            BackTop
+            breadcrumbNav
         },
         data() {
             return {
@@ -169,9 +156,10 @@
                 }
                 window.location.reload();
             },
-            // 返回顶部
-            goTop () {
-              window.scrollTo(0, 0)
+            // 退出登录
+            toLogout () {
+              this.$store.commit("clearOpenedSubmenu")
+              Util.toLogout();
             }
         }
     }

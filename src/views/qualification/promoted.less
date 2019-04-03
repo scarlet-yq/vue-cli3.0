@@ -1,0 +1,31 @@
+.promoted {
+  .icon-mask {
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    .fade-enter-active , .fade-leave-active {
+      transition: opacity 2s;
+    }
+    .fade-enter , .fade-leave-active {
+      opacity: 0;
+    }
+    .img-wrap {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      span {
+        cursor: pointer;
+        position: absolute;
+        z-index: 2;
+        right: -20px;
+        top: -12px;
+      }
+    }
+  }
+
+}

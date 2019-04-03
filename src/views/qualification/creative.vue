@@ -1,12 +1,12 @@
 <template>
   <div class="creative">
-    <Card :bordered="false" :shadow="false" :dis-hover="false">
+    <Card :bordered="false" :shadow="false" :dis-hover="true">
       <div class="search-btn">
         <Form>
-          <Row :gutter="40">
+          <Row :gutter="30">
             <Col :xs="searchLayout.xs" :sm="searchLayout.sm" :md="searchLayout.md" :lg="searchLayout.lg">
             <FormItem>
-              <Input v-model="searchForm.creativeGroupId" :placeholder="$t('_creativeId')"/>
+              <Input v-model="searchForm.creativeId" :placeholder="$t('_creativeId')"/>
             </FormItem>
             </Col>
             <Col :xs="searchLayout.xs" :sm="searchLayout.sm" :md="searchLayout.md" :lg="searchLayout.lg">
@@ -54,10 +54,12 @@
             </FormItem>
             </Col>
           </Row>
-          <Row :gutter="40" >
+          <Row :gutter="30" >
             <Col span="24" :style="{ textAlign: 'right' }">
-            <Button class="m-r-20" type="primary" @click="creativePageChange">{{ this.$t("_search") }}</Button>
-            <Button type="success" @click="exportToExcel">{{ this.$t("_exportToExcel") }}</Button>
+                <FormItem>
+                  <Button class="m-r-20" type="primary" @click="creativePageChange">{{ this.$t("_search") }}</Button>
+                  <Button type="success" @click="exportToExcel">{{ this.$t("_exportToExcel") }}</Button>
+                </FormItem>
             </Col>
           </Row>
         </Form>
@@ -75,25 +77,9 @@
 
 <script>
   import { qualificationResource } from '../../api';
-  import { Card, Row, Col, Form, FormItem,Input, Select, Option, Button, Table, Page,Avatar } from 'iview';
 
   export default {
     name: "creative",
-    components: {
-      Avatar,
-      Card,
-      Row,
-      Col,
-      Form,
-      FormItem,
-      Input,
-      Select,
-      Table,
-      Page,
-      Button,
-      Option,
-
-    },
     data() {
       return {
         searchLayout: {
@@ -103,7 +89,7 @@
           lg: 6,
         },
         searchForm: {
-          creativeGroupId: "",
+          creativeId: "",
           packagee: "",
           offerId: "",
           promotedAppId: "",
@@ -114,7 +100,7 @@
         },
         creativeColumns: [
           {
-            title: this.$t("_creativeId"),
+            title: this.$t("_creativeGroupId"),
             key: "creativeGroupId",
             width:  120,
             align: 'center',
@@ -122,7 +108,7 @@
               return h('div', [
                 h('a', {
                   style: {
-                    color: 'blue'
+                    color: '#369'
                   },
                   on: {
                     click: () => this.showIconModel(params.row.icon)
@@ -256,9 +242,9 @@
         this.creativePageChange(1);
       },
       creativePageChange(pageNo) {
-        let { creativeGroupId, packagee, offerId, promotedAppId, exchangeCreativeId, exchange, adType, reviewStatus } = this.searchForm;
+        let { creativeId, packagee, offerId, promotedAppId, exchangeCreativeId, exchange, adType, reviewStatus } = this.searchForm;
         qualificationResource.getAllCreative(
-          creativeGroupId,
+          creativeId,
           packagee,
           offerId,
           promotedAppId,

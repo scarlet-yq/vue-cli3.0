@@ -10,16 +10,11 @@
 </template>
 
 <script>
-import {Breadcrumb, BreadcrumbItem} from 'iview';
 
 export default {
     name: 'breadcrumbNav',
     props: {
         currentPath: Array
-    },
-    components: {
-        Breadcrumb,
-        BreadcrumbItem
     },
     methods: {
         itemTitle (item) {

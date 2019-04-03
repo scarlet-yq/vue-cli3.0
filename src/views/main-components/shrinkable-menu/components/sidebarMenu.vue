@@ -26,8 +26,6 @@
 
 
 <script>
-    import { Menu, MenuItem, Icon, Submenu } from 'iview';
-
     export default {
         name: 'sidebarMenu',
         props: {
@@ -40,12 +38,6 @@
                 type: Array
             }
         },
-        components: {
-            Menu,
-            MenuItem,
-            Icon,
-            Submenu
-        },
         methods: {
             getNameOrHref (item, children0) {
                 return item.href ? `isTurnByHref_${item.href}` : (children0 ? item.children[0].name : item.name)
@@ -54,11 +46,6 @@
                 this.$emit('on-change', active);
             },
             itemTitle (item) {
-                /*if (typeof item.title === 'object') {
-                    return this.$t(item.title.i18n);
-                } else {
-                    return item.title;
-                }*/
                 return this.$t("_" + item.name);
             }
         },

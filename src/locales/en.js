@@ -19,7 +19,8 @@ const en_US = {
   _appName: 'App Name',
   _companyId: 'Company ID',
   _companyName: 'Company Name',
-  _creativeId: 'Creative Group ID',
+  _creativeId: 'Creative ID',
+  _creativeGroupId: 'Creative Group ID',
   _exchangeCreativeId: 'Exchange Creative ID',
 
   // 资质审核状态
